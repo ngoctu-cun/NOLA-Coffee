@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #010000;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f4dbc3;
+  padding: 10px 20px;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+.search-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  width: 200px;
+}
+.search-container button {
+  padding: 10px;
+  background-color: #8e6d58;
+  color: white;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+.user-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.user-icons img {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+header {
+  background-color: #f4dbc3;
+  color: #000000;
+  padding: 1em;
+  text-align: center;
+}
+nav a {
+  color: rgb(0, 0, 0);
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+section {
+  padding: 20px;
+}
+.hero img {
+  width: 100%;
+  height: auto;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  margin: 10px 0;
+}
+ul li img {
+  width: 100px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+form input,
+form textarea,
+form button {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1em;
+}
+footer {
+  background-color: #8e6d58;
+  color: white;
+  text-align: center;
+  padding: 0.1em;
+  width: 100%;
+}
